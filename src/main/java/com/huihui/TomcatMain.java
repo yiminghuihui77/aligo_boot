@@ -43,7 +43,7 @@ public class TomcatMain {
 
         //启动tomcat
         tomcat.start();
-        System.out.println("extTomcat已经启动...");
+        System.out.println("ExtTomcat已经启动...");
         tomcat.getServer().await();
 
     }
